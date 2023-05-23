@@ -1,0 +1,7 @@
+# Function dependencies, for example:
+# package>=version
+
+flask
+google-cloud-documentai
+google-cloud-core
+google-api-core
