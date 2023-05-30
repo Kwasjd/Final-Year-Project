@@ -220,7 +220,7 @@ class _ModelState extends State<Model> {
     final request = http.MultipartRequest(
         'POST',
         Uri.parse(
-            'https://us-central1-my-project4-377307.cloudfunctions.net/http-test-ocr-2'));
+            'https://us-central1-my-project4-377307.cloudfunctions.net/http-test-ocr-2'));    //URL change according to your cloud function 
 
     // Add the image to the request with the key 'image'
     final imageStream = http.ByteStream(imageFile.openRead());
