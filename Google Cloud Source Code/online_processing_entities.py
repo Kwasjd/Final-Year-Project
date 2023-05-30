@@ -8,7 +8,7 @@ LOCATION = "us"  # Format is 'us' or 'eu'
 PROCESSOR_ID = "d07bfe76b30a6e51"  # Create processor in Cloud Console
 
 # The local file in your current working directory
-FILE_PATH = "C:/Users/danie/Desktop/NTU/Modules/Final_Year_Project/images/Baked Cheesy Pasta_20230323_010857_005.jpg"
+FILE_PATH = "images/Baked Cheesy Pasta_20230323_010857_005.jpg"  #Change accordingly to where you saved your image in your local drive
 # Refer to https://cloud.google.com/document-ai/docs/file-types
 # for supported file types
 MIME_TYPE = "image/jpeg"
