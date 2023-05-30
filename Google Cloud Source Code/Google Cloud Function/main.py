@@ -4,9 +4,11 @@ from google.cloud import documentai_v1
 
 app = Flask(__name__)
 
-PROJECT_ID = "my-project4-377307"
+#Project ID and Processor ID change accrodingly to what were created in your Google CLoud Platform
+
+PROJECT_ID = "my-project4-377307" # Project ID change according to your Google Cloud Project ID
 LOCATION = "us"  # Format is 'us' or 'eu'
-PROCESSOR_ID = "d07bfe76b30a6e51"  # Create processor in Cloud Console
+PROCESSOR_ID = "d07bfe76b30a6e51"  # Create processor in Cloud Console (Change accordingly) 
 LABELS = {
     "Energy": "Energy",
     "Energy_Per_100g": "Energy Per 100g",
