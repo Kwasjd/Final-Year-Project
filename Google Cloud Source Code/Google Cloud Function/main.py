@@ -4,7 +4,7 @@ from google.cloud import documentai_v1
 
 app = Flask(__name__)
 
-#Project ID and Processor ID change accrodingly to what were created in your Google CLoud Platform
+# Note: Project ID and Processor ID change accrodingly to what were created in your Google CLoud Platform
 
 PROJECT_ID = "my-project4-377307" # Project ID change according to your Google Cloud Project ID
 LOCATION = "us"  # Format is 'us' or 'eu'
